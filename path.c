@@ -25,7 +25,7 @@ node *new_node(node **head ,char *str)
 	return(new);
 }
 
-void path()
+int path()
 {
 	int i = 0, lenght_palabra = 0, cont = 0, j, y;
 	char *aux, *str_tok;
@@ -58,6 +58,7 @@ void path()
 		}
 		i++;
 	}
+	return(0);
 }
 
 int cont_word(char * palabra)

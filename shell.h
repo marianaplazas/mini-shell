@@ -6,6 +6,6 @@
 #include <unistd.h>
 char **_strtok(char *istring);
 int hand_errors(char **av);
-void path();
+int path();
 int cont_word(char * palabra);
 #endif
